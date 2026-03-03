@@ -1,78 +1,8 @@
-// Products Data
-const products = [
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
-            id: 1,
-            name: "مثقاب كهربائي احترافي",
-            category: "electrical",
-            price: 299, // السعر الحالي (بعد الخصم)
-            originalPrice: 500, // السعر الأصلي (قبل الخصم)
-            description: "مثقاب قوي مع 3 سرعات مختلفة",
-            image: "photos/Screenshot 2025-11-04 001336.png",
-           } , 
-           {
+
+const products = 
+
+[
+       {
             id: 1,
             name: "مثقاب كهربائي احترافي",
             category: "electrical",
@@ -82,8 +12,64 @@ const products = [
             image: "photos/Screenshot 2025-11-04 001336.png",
            } , 
         
-        
-        ];
+        {
+            id: 2,
+            name: "مطرقة كهربائية", 
+            category: "electrical",
+            price: 499,
+            originalPrice: 800,
+            description: "مطرقة قوية مع وظيفة الحفر والطرق",
+            image: "photos/Screenshot 2025-11-04 001402.png",
+        },
+        {
+            id: 3,
+            name: "منشار كهربائي",
+            category: "electrical",
+            price: 199,
+            originalPrice: 350,
+            description: "منشار خفيف الوزن مع شفرة حادة",
+            image: "photos/Screenshot 2025-11-04 001422.png",
+        },
+        {
+            id: 4,
+            name: "غسالة كهربائية",
+            category: "electrical",
+            price: 299,
+            originalPrice: 500,
+            description: "غسالة قوية مع وظيفة الغسيل والتجفيف",
+            image: "photos/غسالة.jfif",
+        },
+        {
+            id: 5,
+            name: "مثقاب كهربائي",
+            category: "electrical",
+            price: 299,
+            originalPrice: 500,
+            description: "مثقاب قوي مع 3 سرعات مختلفة",
+            image: "photos/Screenshot 2025-11-04 001336.png",
+        },
+        {
+            id: 6,
+            name: "مطرقة كهربائية",
+            category: "electrical",
+            price: 499,
+            originalPrice: 800,
+            description: "مطرقة قوية مع وظيفة الحفر والطرق",
+            image: "photos/Screenshot 2025-11-04 001402.png",
+        },
+        {
+            id: 7,
+            name: "مايكروويف كهربائي",
+            category: "electrical",
+            price: 199,
+            originalPrice: 350,
+            description: "مايكروويف خفيف الوزن مع وظيفة التسخين والطهي",
+            image: "photos/مايكرويف.jfif",
+        },
+     
+
+
+]
 
 // Cart
 let cart = [];
