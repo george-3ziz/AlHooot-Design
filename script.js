@@ -33,7 +33,7 @@ const products =
         {
             id: 4,
             name: "غسالة كهربائية",
-            category: "electrical",
+            category: "kitchen",
             price: 299,
             originalPrice: 500,
             description: "غسالة قوية مع وظيفة الغسيل والتجفيف",
@@ -42,7 +42,7 @@ const products =
         {
             id: 5,
             name: "مثقاب كهربائي",
-            category: "electrical",
+            category: "kitchen",
             price: 299,
             originalPrice: 500,
             description: "مثقاب قوي مع 3 سرعات مختلفة",
